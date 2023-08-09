@@ -1,0 +1,91 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#component-container{
+    width: 408px;
+    height: 630px;
+    border-radius: 4%;
+    border: 1px hsl(224, 23%, 95%) solid;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 4cqb hsl(224, 23%, 80%)
+}
+
+#component-header {
+    width: 408px;
+    height: 200px;
+    border-radius: 16px 16px 0px 0px;
+    background-image: url('./images/illustration-hero.svg');
+    background-size: cover;
+}
+#component-body {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+#component-container > h1{
+    font-weight: 900;
+}
+#component-container > p{
+color:grey;
+}
+#plan-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+#plan-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#plan-text {
+    margin-left: 16px;
+}
+#plan-text > h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+#plan-text > h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+#plan-link > h4{
+    margin: 0;
+    text-decoration: underline;
+    font-weight: 500;
+    color: rgb(43, 29, 113);
+}
+
+#component-footer > button{
+   width: 100%;
+   border-radius: 4px;
+   border: 0;
+   margin-top: 8px;
+   padding: 8px;
+}
+
+#proceed-button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: 1px black solid;
+}
+
+#cancel-button{
+    background-color: white;
+    color: grey;
+}
